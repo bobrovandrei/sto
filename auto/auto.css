@@ -14,12 +14,13 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
   line-height: 18px;
   margin: 0;
   text-transform: uppercase;
   font-family: "Montserrat";
-  color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 h3 {
@@ -40,7 +41,7 @@ p {
 }
 
 body {
-  background: url(img/pxfuel.jpg) no-repeat;
+  background: url(img/dodge.jpg) no-repeat;
   background-size: auto;
   background-attachment: fixed;
 }
@@ -64,6 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0;
 }
 
 .adress {
@@ -117,7 +119,7 @@ nav li {
 
 #car-img {
   width: 1195px;
-  height: 790px;
+  height: 690px;
 }
 
 /* section */
@@ -160,4 +162,36 @@ section p {
 
 .left-bottom-img img {
   width: 350px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  border-top: solid 2px white;
+  padding: 15px;
+}
+
+footer p {
+  color: #e41515;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.adress img {
+  margin-right: 10px;
+}
+
+.tel img {
+  margin-right: 10px;
+}
+
+.btn.btn-outline-danger {
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 0;
 }
