@@ -12,8 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="sto.css">
-    <link rel="stylesheet" href="sto-media.css">
+    <link rel="stylesheet" href="auto.css">
+    <link rel="stylesheet" href="auto-media.css">
     <title>Document</title>
 </head>
 
@@ -21,6 +21,8 @@
 
     <div class="container">
         <header>
+            <a href="../moto/index.html"><button type="button" class="btn btn-outline-danger">ОБСЛУЖИВАНИЕ
+                    МОТОТЕХНИКИ</button></a>
             <div class="contacts">
                 <ul>
                     <li>
@@ -61,20 +63,27 @@
             <nav>
                 <ol>
                     <li>
-                        <h2>Главная</h2>
+                        <a href="#service">
+                            <h2>диагностика</h2>
+                        </a>
+
                     </li>
                     <li>
-                        <h2>Наши работы</h2>
+                        <a href="#dtp">
+                            <h2>шиномонтаж</h2>
+                        </a>
                     </li>
                     <li>
-                        <h2>Услуги мотосервиса</h2>
+                        <a href="#whells">
+                            <h2>развал-схождение</h2>
+                        </a>
                     </li>
                     <li>
-                        <h2>Зимнее хранение</h2>
+                        <a href="#evacuator">
+                            <h2>автозапчасти</h2>
+                        </a>
                     </li>
-                    <li>
-                        <h2>Контакты</h2>
-                    </li>
+
                 </ol>
             </nav>
 
@@ -84,16 +93,16 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/ktm2.jpg" class="d-block w-100" id="car-img" alt="img">
+                        <img src="img/shini.webp" class="d-block w-100" id="car-img" alt="img">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/s1000rm.jpg" class="d-block w-100" id="car-img" alt="img">
+                        <img src="img/111.webp" class="d-block w-100" id="car-img" alt="img">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/mt10.jpg" class="d-block w-100" id="car-img" alt="img">
+                        <img src="img/audi.jpg" class="d-block w-100" id="car-img" alt="img">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/duc.jpg" class="d-block w-100" id="car-img" alt="img">
+                        <img src="img/zapchasti.png" class="d-block w-100" id="car-img" alt="img">
                     </div>
                 </div>
             </div>
@@ -102,10 +111,11 @@
         <section>
             <div class="left">
                 <div class="left-top">
-                    <h2>МОТОСЕРВИС В ДРУЖНОМ</h2>
+                    <p><a name="service"></a></p>
+                    <h2>диагностика</h2>
                 </div>
                 <div class="left-bottom">
-                    <div class="left-bottom-img"><img src="img/engine.jpg" alt="img"></div>
+                    <div class="left-bottom-img"><img src="img/diag.jpg" alt="img"></div>
 
                     <p>Мотосервис Stark Motors занимается
                         техническим обслуживанием и ремонтом
@@ -121,10 +131,11 @@
             </div>
             <div class="left">
                 <div class="left-top">
-                    <h2>ВОССТАНОВЛЕНИЕ ПОСЛЕ ДТП</h2>
+                    <p><a name="dtp"></a></p>
+                    <h2>шиномонтаж</h2>
                 </div>
                 <div class="left-bottom">
-                    <div class="left-bottom-img"><img src="img/rama.jpg" alt="img"></div>
+                    <div class="left-bottom-img"><img src="img/hinka.jpg" alt="img"></div>
 
                     <p>Мотесервис Stark Motors предлагает все виды
                         покраски мотоцикла любой сложности, восстановление
@@ -139,10 +150,11 @@
             </div>
             <div class="left">
                 <div class="left-top">
-                    <h2>ШИНОМОНТАЖ</h2>
+                    <p><a name="whells"></a></p>
+                    <h2>развал-схождение</h2>
                 </div>
                 <div class="left-bottom">
-                    <div class="left-bottom-img"><img src="img/motoshinomontazh.jpg" alt="img"></div>
+                    <div class="left-bottom-img"><img src="img/razval.jpg" alt="img"></div>
 
                     <p> Мотошиномонтаж в Москве (САО)
                         1 Снятие – установка переднего колеса 350 руб.
@@ -158,10 +170,11 @@
             </div>
             <div class="left">
                 <div class="left-top">
-                    <h2>МОТОЭВАКУАТОР</h2>
+                    <p><a name="evacuator"></a></p>
+                    <h2>автозапчасти</h2>
                 </div>
                 <div class="left-bottom">
-                    <div class="left-bottom-img"><img src="img/eva.webp" alt="img"></div>
+                    <div class="left-bottom-img"><img src="img/zapchasti.png" alt="img"></div>
 
                     <p>Коллектив Stark Motors предлагает Вам услуги
                         мотоэвакуатора, перевозки любой мототехники
@@ -176,35 +189,24 @@
                 </div>
 
             </div>
-            <div class="left">
-                <div class="left-top">
-                    <h2>ЗИМНЕЕ ХРАНЕНИЕ МОТОЦИКЛОВ</h2>
-                </div>
-                <div class="left-bottom">
-                    <div class="left-bottom-img"><img src="img/zima.jpg" alt="img"></div>
-
-                    <p>Лето незаметно пролетело и пришло время задумываться
-                        о зимнем хранении Ваших двухколесных любимцев. Если
-                        Вы пока не являетесь счастливым обладателем теплого
-                        гаража, а Ваши домашние не в восторге от фразы: «Это
-                        мой мот, он будет жить с нами!», значит, добро пожаловать
-                        к нам на зимнее хранение!
-                        Паркинг располагается на территории нашего мотосервиса.
-                        Мотоциклы хранятся в теплом …</p>
-                </div>
-
-            </div>
 
             <div class="right"></div>
         </section>
 
         <section>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2865.14614482504!2d27.896609064394834!3d53.628137601028406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da271d6e1a1103%3A0xaaaa2c0c38eb1a91!2z0JzQvtGC0L4g0KHQotCeICLQkNCf0JXQmtChIg!5e1!3m2!1sru!2sby!4v1687681843131!5m2!1sru!2sby"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1432.5460582069622!2d27.896629348397248!3d53.62893334254162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da27f0be0881fd%3A0xfdd6474ce1b09b90!2z0KjQuNC90L7QvNC-0L3RgtCw0LYsINGA0LDQt9Cy0LDQuy3RgdGF0L7QttC00LXQvdC40LUsINCw0LLRgtC-0LfQsNC_0YfQsNGB0YLQuA!5e1!3m2!1sru!2sby!4v1687775877936!5m2!1sru!2sby"
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+        <footer>
+            <p>Мотосервис "APEX" - обслуживание мотоциклов в п.Дружный <br>
+                &#169; 2010-2023 Все права защищены</p>
+        </footer>
+
     </div>
+
 
 
 
