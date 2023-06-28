@@ -1,0 +1,30 @@
+@media all and (max-width: 1225px) {
+  .container {
+    max-width: 1024px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  /* #car-img {
+    height: 700px;
+  } */
+}
+
+@media all and (max-width: 990px) {
+  .contacts ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  /* #car-img {
+    height: 585px;
+  } */
+  .left-bottom {
+    flex-direction: column;
+  }
+  /* .left-bottom-img img {
+    width: 100%;
+  } */
+  .left-bottom {
+    align-items: center;
+  }
+}

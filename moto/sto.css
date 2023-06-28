@@ -117,10 +117,10 @@ nav li {
   list-style-type: none;
 }
 
-#car-img {
+/* #car-img {
   width: 1195px;
   height: 790px;
-}
+} */
 
 /* section */
 
@@ -134,7 +134,7 @@ section h2 {
 
 section {
   background: rgb(0 0 0 / 80%);
-  padding: 15px 60px;
+  padding: 15px 10px;
 }
 
 section p {
@@ -197,4 +197,21 @@ footer p {
   font-family: "Montserrat";
   font-weight: 700;
   border-radius: 0;
+}
+
+#navbarr {
+  background: rgb(255 255 255 / 40%);
+  padding: 20px 15px;
+}
+
+#navbarr h2 {
+  color: black;
+}
+
+#navbarr h2:hover {
+  color: red;
+}
+
+#navbarNav {
+  justify-content: space-around;
 }
