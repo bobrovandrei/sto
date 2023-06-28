@@ -60,7 +60,7 @@ body {
 .contacts {
   background: rgb(0 0 0 / 80%);
   padding: 28px 0 25px;
-  /* box-shadow: 0 0 4px rgb(0 0 0 / 40%); */
+  position: relative;
 }
 .contacts ul {
   list-style-type: none;
@@ -215,4 +215,10 @@ footer p {
 }
 #navbarr h2:hover {
   color: red;
+}
+
+.inst {
+  position: absolute;
+  top: 0;
+  right: 0%;
 }
