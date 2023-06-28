@@ -143,6 +143,9 @@ section p {
   font-weight: 600;
   color: #ffffff;
   font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left-bottom {
