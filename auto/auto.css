@@ -45,6 +45,7 @@ body {
   background-size: auto;
   background-position: center;
   background-attachment: fixed;
+  background-color: black;
 }
 
 .logo img {
